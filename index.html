@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentación de elementos HTML</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <header>Documentación de elementos HTML</header>
+  <ul>
+    <li><a class="nav-link" href="#Introducción">Introducción</a></li>
+    <li><a class="nav-link" href="#Raíz_principal">Raíz principal</a></li>
+    <li><a class="nav-link" href="#Metadatos_del_documento">Metadatos del documento</a></li>
+    <li><a class="nav-link" href="#Raíz_de_seccionamiento">Raíz de seccionamiento</a></li>
+    <li><a class="nav-link" href="#Sección_de_contenido">Sección de contenido</a></li>
+    <li><a class="nav-link" href="#Contenido_del_texto">Contenido del texto</a></li>
+    <li><a class="nav-link" href="#Semántica_de_texto_en_línea">Semántica de texto en línea</a></li>
+    <li><a class="nav-link" href="#Imagen_y_multimedia">Imagen y multimedia</a></li>
+    <li><a class="nav-link" href="#Contenido_incrustado">Contenido incrustado</a></li>
+    <li><a class="nav-link" href="#Scripting">Scripting</a></li>
+    <li><a class="nav-link" href="#Demarcar_ediciones">Demarcar ediciones</a></li>
+    <li><a class="nav-link" href="#Contenido_de_la_tabla">Contenido de la tabla</a></li>
+    <li><a class="nav-link" href="#Formularios">Formularios</a></li>
+    <li><a class="nav-link" href="#Elementos_interactivos">Elementos interactivos</a></li>
+    <li><a class="nav-link" href="#Componentes_web">Componentes web</a></li>
+    <li><a class="nav-link" href="#Referencia">Referencia</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introducción">
+    <header>Introducción</header>
+    <article>
+      <p>Esta página de documentación enumera todos los elementos HTML, que se crean mediante etiquetas. Están agrupados por función para ayudarlo a encontrar fácilmente el elemento que esté buscando. Se proporciona una lista alfabética de todos los elementos en la barra lateral de la página de cada elemento.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Raíz_principal">
+    <header>Raíz principal</header>
+    <article>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+                <code>html</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML</strong> (<code>html</code>) representa la raíz (elemento de nivel superior) de un documento HTML, por lo que también se denomina elemento raíz. Todos los demás elementos deben ser descendientes de este elemento.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Metadatos_del_documento">
+    <header>Metadatos del documento</header>
+    <article>
+      <p>Los metadatos contienen información sobre la página. Esto incluye información sobre estilos, scripts y datos para ayudar al software ( motores de búsqueda, navegadores, etc.) a usar y representar la página. Los metadatos para estilos y scripts se pueden definir en la página o enlazar a otro archivo que tenga la información.</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/att_base_href.asp" target="_blank">
+                <code>base</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Base</strong> (<code>base</code>) especifica la URL base que se utilizará para todas las URL relativas en un documento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/html/html_head.asp" target="_blank">
+                <code>head</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Head</strong> (<code>head</code>) contiene información legible por máquina (metadatos) sobre el documento, como su título, scripts y hojas de estilo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_link.asp" target="_blank">
+                <code>link</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML External Resource Link</strong> (<code>link</code>) especifica las relaciones entre el documento actual y un recurso externo. Este elemento se usa más comúnmente para vincular a hojas de estilo, pero también se usa para establecer iconos de sitios (iconos de estilo "favicon" e iconos para la pantalla de inicio y aplicaciones en dispositivos móviles), entre otras cosas.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_meta.asp" target="_blank">
+                <code>meta</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Metadata</strong> (<code>meta</code>) representa metadatos que no puede ser representado por otros elementos relacionados con los meta-HTML, como <code>base, script, style</code> o <code>title</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">
+                <code>style</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Style</strong> (<code>style</code>) contiene información de estilo para un documento o parte de un documento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_title.asp" target="_blank">
+                <code>title</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Title</strong> (<code>title</code>) define el título del documento que se muestra en la barra de título de un navegador o en la pestaña de una página.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Raíz_de_seccionamiento">
+    <header>Raíz de seccionamiento</header>
+    <article>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_body.asp" target="_blank">
+                <code>body</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Body</strong> (<code>body</code>) representa el contenido de un documento HTML. Solo puede haber un <code>body</code> elemento en un documento.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Sección_de_contenido">
+    <header>Sección de contenido</header>
+    <article>
+      <p>Los elementos de sección de contenido le permiten organizar el contenido del documento en partes lógicas. Utilice los elementos de sección para crear un esquema amplio para el contenido de su página, incluida la navegación de encabezado y pie de página, y elementos de encabezado para identificar secciones de contenido</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_address.asp" target="_blank">
+                <code>address</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Address</strong> (<code>address</code>) indica que el HTML adjunto proporciona información de contacto para una persona o personas, o para una organización.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_article.asp" target="_blank">
+                <code>article</code>
+              </a>
+            <td>El <strong>elemento HTML Article</strong> (<code>article</code>) representa una composición autónoma en un documento, página, aplicación o sitio, que pretende ser distribuible o reutilizable de forma independiente (por ejemplo, en sindicación).</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top">
+              <a href="https://www.w3schools.com/tags/tag_aside.asp" target="_blank">
+                <code>aside</code>
+              </a>
+            <td> El <strong>elemento HTML Target</strong> (<code>aside</code>) representa una parte de un documento cuyo contenido solo está relacionado indirectamente con el contenido principal del documento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">
+                <code>footer</code>
+              </a>
+            <td>El <strong>elemento HTML Footer</strong> (<code>footer</code>) representa un pie de página para su contenido de sección más cercano o elemento raíz de sección. Un pie de página generalmente contiene información sobre el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_header.asp" target="_blank">
+                <code>header</code>
+              </a>
+            <td>El <strong>elemento HTML Header</strong> (<code>header</code>) representa contenido introductorio, normalmente un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezados, pero también un logotipo, un formulario de búsqueda, un nombre de autor y otros elementos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">
+                <code>h1, h2, h3, h4, h5, h6</code>
+              </a>
+            <td>Los <strong>elementos HTML Heading</strong> (<code>h1</code>) a (<code>h6</code>) representan seis niveles de encabezados de sección. <code>h1</code> es el nivel de sección más alto y <code>h6</code> es el más bajo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-hgroup-tag.html" target="_blank">
+                <code>hgroup</code>
+              </a>
+            <td>El <strong>elemento HTML Heading Group</strong> (<code>hgroup</code>) representa un encabezado de varios niveles para una sección de un documento. Agrupa un conjunto de <code>h1 - h6</code> elementos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_main.asp" target="_blank">
+                <code>main</code>
+              </a>
+            <td>El <strong>elemento HTML Main</strong> (<code>main</code>) representa el contenido dominante del <code>body</code> de un documento. El área de contenido principal consiste en contenido que está directamente relacionado con el tema central de un documento o se expande sobre él, o la funcionalidad central de una aplicación.</td>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_nav.asp" target="_blank">
+                <code>nav</code>
+              </a>
+            <td>El <strong>elemento HTML Navigation</strong> (<code>nav</code>) representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o hacia otros documentos. Los ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_section.asp" target="_blank">
+                <code>section</code>
+              </a>
+            <td>El <strong>elemento HTML Section</strong> (<code>section</code>) representa una sección independiente, que no tiene un elemento semántico más específico para representarla, contenida en un documento HTML.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Contenido_del_texto">
+    <header>Contenido del texto</header>
+    <article>
+      <p>Utilice elementos de contenido de texto HTML para organizar bloques o secciones de contenido colocadas entre las etiquetas de apertura y cierre del elemento<code>body</code>. Estos elementos identifican el propósito o la estructura de ese contenido y son importantes para la accesibilidad y el SEO del documento</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_blockquote.asp" target="_blank">
+                <code>blockquote</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Blockquote</strong> (<code>blockquote</code>) indica que el texto adjunto es una cita ampliada. Por lo general, esto se representa visualmente mediante sangría. Se puede proporcionar una URL para la fuente de la cita utilizando el atributo <strong><code>cite</code></strong>, mientras que se puede proporcionar una representación de texto de la fuente utilizando el <code>cite</code> elemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_dd.asp" target="_blank">
+                <code>dd</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Description Data</strong> (<code>dd</code>) proporciona la descripción, definición o valor del término anterior <code>dt</code> en una lista de descripción <code>dl</dl>
+          </tr>
+          <tr>
+            <td style="vertical-align: top:">
+              <a href="https://www.w3schools.com/tags/tag_div.asp" target="_blank">
+                <code>div</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Division</strong> (<code>div</code>) es el contenedor genérico de contenido de flujo. No tiene ningún efecto en el contenido o el diseño hasta que se le aplica estilo usando CSS.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_dl.asp" target="_blank">
+                <code>dl</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Description List</strong> (<code>dl</code>) representa una lista de descripción. El elemento incluye una lista de grupos de términos (especificados mediante el <code>dt></code> elemento) y descripciones (proporcionadas por <code>dd</code> elementos). Los usos comunes de este elemento son implementar un glosario o mostrar metadatos (una lista de pares clave-valor).</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_dt.asp" target="_blank">
+                <code>dt</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Description Term</strong> (<code>dt</code>) especifica un término en una descripción o lista de definiciones y, como tal, debe usarse dentro de un <code>dl</code> elemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_figcaption.asp" target="_blank">
+                <code>figcaption</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Figure Caption</strong> (<code>figcaption</code>) o título de figura representa un título o leyenda que describe el resto del contenido de su <code>figure</code> elemento principal.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_figure.asp" target="_blank">
+                <code>figure</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Figure</strong> (<code>figure</code>) (figura con título opcional) representa contenido autónomo, potencialmente con un título opcional, que se especifica mediante el <code>figcaption</code> elemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_hr.asp" target="_blank">
+                <code>hr</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Horizontal Rule</strong> (<code>hr</code>) representa una ruptura temática entre elementos a nivel de párrafo: por ejemplo, un cambio de escena en una historia o un cambio de tema dentro de una sección.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_li.asp" target="_blank">
+                <code>li</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML List Item</strong> (<code>li</code>) se utiliza para representar un elemento en una lista.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_main.asp" target="_blank">
+                <code>main</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Main</strong> (<code>main</code>) representa el contenido dominante en el <code>body</code> de un documento. El área de contenido principal consiste en contenido que está directamente relacionado con el tema central de un documento o se expande sobre él, o la funcionalidad central de una aplicación.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_ol.asp" target="_blank">
+                <code>ol</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ordered List</strong> (<code>ol</code>) representa una lista ordenada de elementos, normalmente representada como una lista numerada.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank" <code>p</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Paragraph</strong> (<code>p</code>) representa un párrafo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top">
+              <a href="https://www.w3schools.com/tags/tag_pre.asp" target="_blank">
+                <code>pre</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Preformatted</strong> (<code>pre</code>) representa texto preformateado que se presenta exactamente como está escrito en el archivo HTML.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top">
+              <a href="https://www.w3schools.com/tags/tag_ul.asp" target="_blank">
+                <code>ul</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Unordered List</strong> (<code>ul</code>) representa una lista desordenada de elementos, normalmente representada como una lista con viñetas.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Semántica_de_texto_en_línea">
+    <header>Semántica de texto en línea</header>
+    <article>
+      <p>Utilice la semántica de texto HTML en línea para definir el significado, la estructura o el estilo de una palabra, línea o cualquier fragmento de texto arbitrario.</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">
+                <code>a</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Anchor</strong> (<code>a</code>) (o elemento ancla), con su <code>href</code> atributo, crea un hipervínculo a páginas web, archivos, direcciones de correo electrónico, ubicaciones en la misma página o cualquier otra cosa que una URL pueda abordar.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank">
+                <code>abbr</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Abbreviation</strong> (<code>abbr</code>) representa una abreviatura o un acronimo; el <code>title</code> atributo opcional puede proporcionar una expansión o descripción de la abreviatura.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_b.asp" target="_blank">
+                <code>b</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Bold</strong> (<code>b</code>) se utiliza para llamar la atención del lector sobre el contenido del elemento, que de otro modo no se le concede un importancia especial</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_bdi.asp" target="_blank">
+                <code>bdi</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Bi-Directional Isolate</strong> (<code>bdi</code>) le dice al algoritmo bidireccional del navegador que trate el texto que contiene de forma aislada del texto que lo rodea.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_bdo.asp" target="_blank">
+                <code>bdo</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Bi-Directional Override</strong> (<code>bdo</code>) anula la direccionalidad actual del texto, de modo que el texto que contiene se representa en una dirección diferente</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_br.asp" target="_blank">
+                <code>br</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Break</strong> (<code>br</code>) produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de líneas es significativa</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_cite.asp" target="_blank">
+                <code>cite</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Cite</strong> (<code>cite</code>) se utiliza para describir una referencia a un trabajo creativo citado y debe incluir el título de ese trabajo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_code.asp" target="_blank">
+                <code>code</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Code</strong> (<code>code</code>) muestra su contenido con un estilo que pretende indicar que el texto es un pequeño fragmento de código informático.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_data.asp" target="_blank">
+                <code>data</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Data</strong> (<code>data</code>) vincula un determinado contenido con una traducción legible por máquina. Si el contenido está relacionado con la fecha o la hora, se debe utilizar el elemento <code>time</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_dfn.asp" target="_blank">
+                <code>dfn</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Definition</strong> (<code>dfn</code>) se utiliza para indicar el término que se define dentro del contexto de una frase u oración de definición.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_em.asp" target="_blank">
+                <code>em</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Emphasis</strong> (<code>em</code>) marca el texto que tiene énfasis. El elemento <code>em</code> se puede anidar, y cada nivel de anidamiento indica un mayor grado de énfasis.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_i.asp" target="_blank">
+                <code>i</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Italic</strong> (<code>i</code>) representa un rango de texto que se diferencia del texto normal por alguna razón, como texto idiomático, términos técnicos, designaciones taxonómicas, entre otros.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_kbd.asp" target="_blank">
+                <code>kbd</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Keyboard</strong> (<code>kbd</code>) representa un intervalo de texto en línea que denota la entrada textual del usuario desde un teclado, entrada de voz o cualquier otro dispositivo de entrada de texto.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_mark.asp" target="_blank">
+                <code>mark</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Mark</strong> (<code>mark</code>) representa el texto que está marcado o resaltado con fines de referencia o anotación, debido a la relevancia o importancia del pasaje marcado en el contexto adjunto.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_q.asp" target="_blank">
+                <code>q</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Quotation</strong> (<code>q</code>) indica que el texto adjunto es una breve cita en línea. La mayoría de los navegadores modernos implementan esto rodeando el texto entre comillas.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-rb-tag.html" target="_blank">
+                <code>rb</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ruby Base</strong> <code>rb</code> se utiliza para delimitar el componente de texto base de una <code>ruby></code> anotación, es decir, el texto que se está anotando.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_rp.asp" target="_blank">
+                <code>rp</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ruby Fallback Parenthesis</strong> (<code>rp</code>) se utiliza para proporcionar paréntesis alternativos para los navegadores que no admiten la visualización de anotaciones ruby utilizando el <code>ruby</code> elemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_rt.asp" target="_blank">
+                <code>rt</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ruby Text</strong> (<code>rt</code>) especifica el componente de texto ruby de una anotación ruby, que se utiliza para proporcionar información de pronunciación, traducción o transliteración para la tipografía de Asia oriental. El elemento <code>rt</code> siempre debe estar contenido dentro de un <code>ruby</code> elemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-rtc-tag.html" target="_blank">
+                <code>rtc</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ruby Text Container</strong> (<code>rtc</code>) abarca anotaciones semánticas de caracteres presentados en Ruby Base <code>rb</code> elementos utilizados dentro del <code>ruby</code> elemento. Los elementos pueden tener anotaciones de pronunciación (<code>rt</code>) y semánticas (<code>rtc</code>).</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_ruby.asp" target="_blank">
+                <code>ruby</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Ruby</strong> (<code>ruby</code>) representa pequeñas anotaciones que se representan encima, debajo o al lado del texto base, que generalmente se utilizan para mostrar la pronunciación de caracteres de Asia oriental. También se puede utilizar para anotar otros tipos de texto, pero este uso es menos común.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-s-tag.html" target="_blank">
+                <code>s</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Strikethrough</strong> (<code>s</code>) representa el texto con un tachado o una línea que lo atraviesa. Utilice el <code>s</code> elemento para representar cosas que ya no son relevantes o que ya no son precisas. Sin embargo, <code>s</code> no es apropiado cuando se indican ediciones de documentos; para eso, use los elementos <code>del</code> y <code>ins</code>, según corresponda.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_samp.asp" target="_blank">
+                <code>samp</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Sample</strong> (<code>samp</code>) se utiliza para incluir texto en línea que representa la salida de muestra (o citada) de un programa informático.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_small.asp" target="_blank">
+                <code>small</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Small</strong> (<code>small</code>) representa comentarios laterales y letra pequeña, como derechos de autor y texto legal, independientemente de su estilo de presentación. De forma predeterminada, muestra el texto dentro de él un tamaño de fuente más pequeño, como <code>small x-small</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_span.asp" target="_blank">
+                <code>span</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Span</strong> (<code>span</code>) es un contenedor en linea generico para redactar contenido, que no representa nada de forma inherente. Se puede usar para agrupar elementos con fines de estilo (usando los atributos <code>class</code> o <code>id</code>), o porque comparten valores de atributo, como <code>lang</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_strong.asp" target="_blank">
+                <code>strong</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Strong Importance</strong> (<code>strong</code>) indica que su contenido tiene una gran importancia, seriedad o urgencia. Los navegadores suelen mostrar el contenido en negrita.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_sub.asp" target="_blank">
+                <code>sub</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Subscript</strong> (<code>sub</code>) especifica texto en línea que debe mostrarse como subíndice por razones exclusivamente tipográficas.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_sup.asp" target="_blank">
+                <code>sup</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Superscript</strong> (<code>sup</code>) especifica texto en línea que se mostrará como superíndice por motivos exclusivamente tipográficos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_time.asp" target="_blank">
+                <code>time</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Time</strong> (<code>time</code>) representa un periodo específico en el tiempo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_u.asp" target="_blank">
+                <code>u</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Underline</strong> (<code>u</code>) representa un espacio de texto en línea que debe representarse de manera que indique que tiene una anotación no textual.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_var.asp" target="_blank">
+                <code>var</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Variable</strong> (<code>var</code>) representa el nombre de una variable en una expresión matemática o un contexto de programación.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_wbr.asp" target="_blank">
+                <code>wbr</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Word Break</strong> (<code>wbr</code>) representa una oportunidad de ruptura de palabras, una posición dentro del texto donde el navegador puede opcionalmente romper una línea, aunque sus reglas de ruptura de línea no crearían una ruptura en esa ubicación.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Imagen_y_multimedia">
+    <header>Imagen y multimedia</header>
+    <article>
+      <p>HTML admite varios recursos multimedia como imágenes, audio y video</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_area.asp" target="_blank">
+                <code>area</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Area</strong> (<code>area</code>) define una región de zona activa en una imagen y opcionalmente, la asocia con un enlace de hipertexto. Este elemento se usa solo dentro de un elemento <code>map</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_audio.asp" target="_blank">
+                <code>audio</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Audio</strong> (<code>audio</code>) se utiliza para incrustar contenido de sonido en documentos. Puede contener una o más fuentes de audio, representadas mediante el <code>src</code> atributo o el <code>source</code> elemento: el navegador elegirá la forma más adecuada. También puede ser el destino de los medios transmitidos mediante un archivo <code>MediaStream</code></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">
+                <code>img</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Image</strong> (<code>img</code>) incrusta una imagen en el documento.</td>
+          </tr>>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">
+                <code>map</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Map</strong> (<code>map</code>) se utiliza con elementos <code>area</code> para definir un mapa de imagen (un área de enlace en la que se puede hacer clic).</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_track.asp" target="_blank">
+                <code>track</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Track</strong> (<code>track</code>) se utiliza como hijo de los elementos multimedia <code>audio</code> y <code>video</code>. Le permite especificar pistas de texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar automáticamente los subtítulos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_video.asp" target="_blank">
+                <code>video</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Video</strong> (<code>video</code>) incorpora un reproductor multimedia que admite la reproducción de video en el documento. También puede utilizarlo para contenido de audio, pero el elemento <code>audio</code> puede proporcionar una experiencia de usuario más adecuada.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Contenido_incrustado">
+    <header>Contenido incrustado</header>
+    <article>
+      <p>Además del contenido multimedia habitual, HTML puede incluir una variedad de otro contenido, incluso si no siempre es fácil interactuar con el.</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_embed.asp" target="_blank">
+                <code>embed</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Embed</strong> )(<code>embed</code>) incrusta contenido externo en el punto especificado del documento. Este contenido lo proporciona una aplicación externa u otra fuente de contenido interactivo, como un complemento de navegador.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_iframe.asp" target="_blank">
+                <code>iframe</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Inline Frame</strong> (<code>iframe</code>) representa un contexto de navegación anidado, incrustando otra página HTML en la actual.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_object.asp" target="_blank">
+                <code>object</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Object</strong> (<code>object</code>) representa un recurso externo, que puede tratarse como una imagen, un contexto de navegación anidado o un recurso para ser manejado por un complemento.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_param.asp" target="_blank">
+                <code>param</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Parameter</strong> (<code>param</code>) define parámetros para un elemento <code>object</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-picture-tag.html" target="_blank">
+                <code>picture</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Picture</strong> (<code>picture</code>) contiene cero o más elementos <code>source</code> y un elemento <code>img</code> para ofrecer versiones alternativas de una imagen para diferentes escenarios de visualización / dispositivo.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-source-tag.html" target="_blank">
+                <code>source</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Source</strong> (<code>source</code>) especifica varios recursos multimedia para los elementos <code>picture</code>, <code>audio</code> y <code>video</code>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Scripting">
+    <header>Scripting</header>
+    <article>
+      <p>Para crear contenido dinámico y aplicaciones web, HTML admite el uso de lenguajes de scripting, principalmente JavaScript. Ciertos elementos apoyan esta capacidad</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-canvas-tag.html" target="_blank">
+                <code>canvas</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Canvas</strong> (<code>canvas</code>) se utiliza con el canvas scripting API o la WebGL API para dibujar gráficos y animaciones.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-noscript-tag.html" target="_blank">
+                <code>noscript</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Noscript</strong> (<code>noscript</code>) define una sección de HTML que se insertará si un tipo de secuencia de comandos en la página no es compatible o si la secuencia de comandos está actualmente desactivada en el navegador.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-script-tag.html" target="_blank">
+                <code>script</code>
+              </a>
+            </td>
+            <td>El <strong>element HTML Script</strong> (<code>script</code>) se utiliza para incrustar código o datos ejecutables; esto se usa normalmente para incrustar o hacer referencia a código JavaScript.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Demarcar_ediciones">
+    <header>Demarcar ediciones</header>
+    <article>
+      <p>Estos elementos le permiten proporcionar indicaciones de que se han modificado partes específicas del texto</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-del-tag.html" target="_blank">
+                <code>del</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Delete</strong> (<code>del</code>) representa un rango de texto que se ha eliminado de un documento</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_ins.asp" target="_blank">
+                <code>ins</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Insert</strong> (<code>ins</code>) representa un rango de texto que se ha agregado a un documento.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Contenido_de_la_tabla">
+    <header>Contenido de la tabla</header>
+    <article>
+      <p>Los elementos aquí se utilizan para crear y manejar datos tabulares</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_caption.asp" target="_blank">
+                <code>caption</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Caption</strong> (<code>caption</code>) especifica el título de una tabla.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_col.asp" target="_blank">
+                <code>col</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Column</strong> (<code>col</code>) define una columna dentro de una tabla y se usa para definir semánticas comunes en todas las celdas. Generalmente se encuentran dentro de un elemento <code>colgroup</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_colgroup.asp" target="_blank">
+                <code>colgroup</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Column Group</strong> (<code>colgroup</code>) define un grupo de columnas dentro de una tabla.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">
+                <code>table<code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table</strong> (<code>table</code>) representa datos tabulares, es decir, información presentada en una tabla bidimensional compuesta por filas y columnas de celdas que contienen datos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_tbody.asp" target="_blank">
+                <code>tbody<code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Body</strong> (<code>tbody</code>) encapsula un conjunto de elementos fila <code>tr</code> de la tabla, lo que indica que comprenden el cuerpo de la <code>table</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_td.asp" target="_blank">
+                <code>td</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Data</strong> (<code>td</code>) define una celda de una tabla que contiene datos. Participa en el modelo de mesa.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_tfoot.asp" target="_blank">
+                <code>tfoot</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Foot</strong> (<code>tfoot</code>) define un conjunto de filas que resumen las columnas de la table</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_th.asp" target="_blank">
+                <code>th</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Heading</strong> (<code>th</code>) define una celda como encabezado de un grupo de celdas en la tabla. La naturaleza exacta de este grupo está definida por los atributos <code>scope</code> y <code>headers</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_thead.asp" target="_blank">
+                <code>thead</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Head</strong> (<code>thead</code>) define un conjunto de filas que definen el encabezado de las columnas de la tabla.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_tr.asp" target="_blank">
+                <code>tr</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Table Row</strong> (<code>tr</code>) define una fila de celdas en una tabla. Las celdas de la fila se pueden establecer mediante una combinación de elementos <code>td</code> (celda de datos) y <code>th</code> (celda de encabezado).</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Formularios">
+    <header>Formularios</header>
+    <article>
+      <p>HTML proporciona una serie de elementos que se pueden usar juntos para crear formularios que el usuario puede completar y enviar al sitio web o la aplicación.</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank">
+                <code>button</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Button</strong> (<code>button</code>) representa un botón en el que se puede hacer clic, que se utiliza para enviar formularios o en cualquier lugar de un documento para una funcionalidad de botón estándar accesible.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_datalist.asp" target="_blank">
+                <code>datalist</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Data List</strong> (<code>datalist</code>) contiene un conjunto de elementos <code>option</code> que representan las opciones permitidas o recomendadas disponibles para elegir dentro de otros controles</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_fieldset.asp" target="_blank">
+                <code>fieldset</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Fieldset</strong> (<code>fieldset</code>) se utiliza para agrupar varios controles y etiquetas <code>label</code> dentro de un formulario web.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_form.asp" targe="_blank">
+                <code>form</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Form</strong> (<code>form</code>) representa una sección de documentos que contiene controles interactivos para enviar informacion</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">
+                <code>input</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Input</strong> (<code>input</code>) se utiliza para crear controles interactivos para formularios basados en web con el fin de aceptar datos del usuario; Se encuentra disponible una amplia variedad de tipos de datos de entrada y widgets de control según el dispositivo y el agente de usuario.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_label.asp" target="_blank">
+                <code>label</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Label</strong> (<code>label</code>) representa un título para un elemento en una interfaz de usuario.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_legend.asp" target="_blank">
+                <code>legend</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Legend</strong> (<code>legend</code>) representa un título del contenido de su elemento padre <code>fieldset</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_meter.asp" target="_blank">
+                <code>meter</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Meter</strong> (<code>meter</code>) representa un valor escalar dentro de un rango conocido o un valor fraccionario.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_optgroup.asp" target="_blank">
+                <code>optgroup</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Options Group</strong> (<code>optgroup</code>) crea una agrupación de opciones dentro de un elemento <code>select</code>.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_option.asp" target="_blank">
+                <code>option</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Option</strong> (<code>option</code>) se utiliza para definir un elemento contenido en elementos <code>select</code>, <code>optgroup</code> o un <code>datalist</code>. Como tal, el elemento <code>option</code> puede representar elementos de menú en ventanas emergentes y otras listas de elementos en un documento HTML.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_output.asp" target="_blank">
+                <code>output</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Output</strong> (<code>output</code>) es un elemento contenedor en el que un sitio o aplicación puede inyectar los resultados de un cálculo o el resultado de una acción del usuario.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_progress.asp" target="_blank">
+                <code>progress</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Progress</strong> (<code>progress</code>) muestra un indicador que muestra el progreso de finalización de una tarea, que normalmente se muestra como una barra de progreso.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">
+                <code>select</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Select</strong> (<code>select</code>) representa un control que proporciona un menú de opciones</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_textarea.asp" target="_blank">
+                <code>textarea</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Text Area</strong> (<code>textarea</code>) representa un control de edición de texto sin formato de varias líneas, útil cuando desea permitir que los usuarios ingresen una cantidad considerable de texto de forma libre, por ejemplo, un comentario en una revisión o formulario de comentarios.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Elementos_interactivos">
+    <header>Elementos interactivos</header>
+    <article>
+      <p>HTML ofrece una selección de elementos que ayudan a crear objetos de interfaz de usuario interactivos</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_details.asp" target="_blank">
+                <code>details</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Details</strong> (<code>details</code>) crea un widget de divulgacion en el que la información es visible solo cuando el widget se cambia a un estado "abierto"</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_dialog.asp" target="_blank">
+                <code>dialog</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Dialog</strong> (<code>dialog</code>) representa un cuadro de diálogo u otro componente interactivo, como una alerta, un inspector o una subventana descartable.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3docs.com/learn-html/html-menu-tag.html" target="_blank">
+                <code>menu</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Menu</strong> (<code>menu</code>) representa un grupo de comandos que un usuario puede realizar o activar. Esto incluye tanto los menús de lista, que pueden aparecer en la parte superior de una pantalla, como los menús contextuales, como los que pueden aparecer debajo de un botón después de hacer clic en él.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_summary.asp" target="_blank">
+                <code>summary</code>
+              </a>
+            </td>
+            <td>El <strong>documento HTML Summary</strong> (<code>summary</code>) especifica un resumen, título o leyenda en un cuadro de divulgación del elemento <code>details</code>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Componentes_web">
+    <header>Componentes Web</header>
+    <article>
+      <p>Web Components es una tecnología relacionada con HTML que permite, esencialmente, crear y utilizar elementos personalizados como si fuera HTML normal. Además, puede crear versiones personalizadas de elementos HTML estándar</p>
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th scope="col">Elemento</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots" target="_blank">
+                <code>slot</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Slot</strong> (<code>slot</code>) hace parte de la suite de tecnología de componentes web, es un marcador de posición dentro de un componente web que puede llenar con su propio marcado, lo que permite crear árboles DOM separados y presentarlos juntos.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <a href="https://www.w3schools.com/tags/tag_template.asp" target="_blank">
+                <code>template</code>
+              </a>
+            </td>
+            <td>El <strong>elemento HTML Template</strong> (<code>template</code>) es un mecanismo para mantener HTML que no se representará inmediatamente cuando se carga una página, pero se puede crear una instancia posteriormente durante el tiempo de ejecución mediante JavaScript.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+  <section class="main-section" id="Referencia">
+    <header>Referencia</header>
+    <article>
+      <ul>
+        <li>
+          Toda la información en esta página de documentación técnica a sido tomada de:
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Mozilla Developer Network</a>
+        </li>
+        <li>
+          Otros recursos disponibles para aprender más acerca de los elementos HTML:
+          <a href="https://www.w3.org/TR/html52/" target="_blank">W3C Recommendation HTML 5.2</a></li>
+        <li>Facil aprendizaje con HTML:
+          <a href="https://www.w3schools.com/html/" target="_blank">w3schools.com</a>
+        </li>
+        <li>Web Hypertext Application Technology Working Group:
+          <a href="https://whatwg.org/" target="_blank">WHATWG community</a></li>
+        <li>Tutoriales, guías, y mejores prácticas para crear y mejorar la web:
+          <a href="https://developers.google.com/web" target="_blank">Fundamentos Web con Google</a></li>
+      </ul>
+    </article>
+  </section>
+</main>
+</body>
+</html>
